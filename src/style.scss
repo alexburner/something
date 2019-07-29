@@ -5,6 +5,40 @@ body {
   font-family: sans-serif;
 }
 
-#root {
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+}
+
+.row.start,
+.row.end {
   text-align: center;
+}
+
+.row.left {
+  text-align: right;
+}
+
+.row.right {
+  text-align: left;
+}
+
+.item {
+  width: 100%;
+  line-height: 2em;
+  padding: 10px;
 }

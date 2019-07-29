@@ -1,0 +1,2 @@
+body{background:#333;color:#eee;box-sizing:border-box;font-family:sans-serif}.row{display:flex;flex-direction:row;flex-wrap:wrap;width:100%}.column{display:flex;flex-direction:column;flex-basis:100%;flex:1}.middle{display:flex;flex-direction:column}.row.end,.row.start{text-align:center}.row.left{text-align:right}.row.right{text-align:left}.item{width:100%;line-height:2em;padding:10px}
+/*# sourceMappingURL=style.01215516.css.map */
