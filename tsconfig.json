@@ -1,0 +1,39 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    //
+    // Module settings
+    //
+
+    // Allows dynamic import()
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "esnext",
+
+    // Allows default imports from modules with no default export
+    // ex > import React from 'react'
+    "allowSyntheticDefaultImports": true,
+
+    //
+    // Code quality
+    //
+
+    // Enable all strict flags
+    "strict": true,
+    // alwaysStrict
+    // noImplicitAny
+    // noImplicitThis
+    // strictBindCallApply
+    // strictFunctionTypes
+    // strictNullChecks
+    // strictPropertyInitialization
+
+    // Prevent unused values
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    // Add safety for working between Linux/MacOS/Windows
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"]
+}
