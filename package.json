@@ -1,7 +1,7 @@
 {
-  "name": "mvp-ts",
+  "name": "something",
   "version": "1.0.0",
-  "description": "Minimum Viable Project for TypeScript on the web",
+  "description": "In between nothing & everything",
   "engines": {
     "node": "11.6.0",
     "npm": "6.5.0"
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexburner/mvp-tsg.git"
+    "url": "git+https://github.com/alexburner/somethingg.git"
   },
   "keywords": [],
   "author": "aburner",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alexburner/mvp-ts/issues"
+    "url": "https://github.com/alexburner/something/issues"
   },
-  "homepage": "https://github.com/alexburner/mvp-ts#readme",
+  "homepage": "https://github.com/alexburner/something#readme",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-transform-runtime": "^7.5.5",

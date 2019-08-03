@@ -1,6 +1,6 @@
 # something
 
-In between nothing & something
+In between nothing & everything
 
 ## Scripts
 
