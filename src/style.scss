@@ -5,6 +5,8 @@ body {
   font-family: sans-serif;
 }
 
+// Util
+
 .row {
   display: flex;
   flex-direction: row;
@@ -19,26 +21,36 @@ body {
   flex: 1;
 }
 
-.middle {
-  display: flex;
-  flex-direction: column;
+// Entities
+
+.item,
+.name,
+.thumb {
+  border: 1px dotted #eee;
 }
 
-.row.start,
-.row.end {
+.name {
+  display: inline-block;
+}
+
+.thumb {
+  $size: 50px;
+  width: $size;
+  height: $size;
+  border-radius: $size;
+}
+
+// Regions
+
+.top,
+.bottom {
   text-align: center;
 }
 
-.row.left {
+.left {
   text-align: right;
 }
 
-.row.right {
+.right {
   text-align: left;
-}
-
-.item {
-  width: 100%;
-  line-height: 2em;
-  padding: 10px;
 }

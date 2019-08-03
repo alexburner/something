@@ -38,30 +38,31 @@ export const Entities: React.FC = () => (
   <div className="entities">
     <div className="grid"></div>
     <div className="items">
-      <Item d={data.start} side="top" area="start" />
-      <div className="row">
-        <div className="column">
+      <div className="top">
+        <Item d={data.start} />
+      </div>
+      <div className="middle row">
+        <div className="left column">
           {map(data.middle.macro, d => (
-            <Item key={d.name} d={d} side="left" area="macro" />
+            <Item key={d.name} d={d} />
           ))}
         </div>
-        <div className="column">
+        <div className="right column">
           {map(data.middle.micro, d => (
-            <Item key={d.name} d={d} side="right" area="micro" />
+            <Item key={d.name} d={d} />
           ))}
         </div>
       </div>
-      <Item d={data.end} side="bottom" area="end" />
+      <div className="bottom">
+        <Item d={data.end} />
+      </div>
     </div>
   </div>
 )
 
-const Item: React.FC<{
-  d: Datum
-  side: 'top' | 'bottom' | 'left' | 'right'
-  area: 'start' | 'macro' | 'micro' | 'end'
-}> = p => (
-  <div className={classes('row', p.side, p.area)}>
-    <div className="item">{p.d.name}</div>
+const Item: React.FC<{ d: Datum }> = p => (
+  <div className="item">
+    <div className="name">{p.d.name}</div>
+    <div className="thumb"></div>
   </div>
 )
